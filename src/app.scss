@@ -1,0 +1,107 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700,900&display=swap");
+@import "color";
+@import "footer";
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+a {
+  transition: 0.3s;
+}
+
+.section-paragraph {
+  color: $dark-grey;
+  opacity: 0.8;
+  font-weight: 300;
+  letter-spacing: 0.0625em;
+}
+
+.content-section-heading{
+    padding: 4rem 0;
+}
+
+.btn-donation {
+  background-color: $primary_light;
+  padding: 0.5rem 2rem;
+  &:hover {
+    background-color: $secondary_color;
+    color: $text-color;
+    transition: 0.3s;
+  }
+}
+
+
+.heading-1, .heading-4{
+    color: $dark-grey;
+}
+.content-section {
+  padding: 5rem 0;
+}
+
+.navbar {
+  background-color: $primary_dark;
+  color: $text-color;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  padding: 0;
+  .navbar-brand {
+    margin: 0 1rem;
+    color: $text-color;
+    &:hover {
+      color: $secondary_light;
+      transition: color 0.3s;
+    }
+  }
+  .navbar-nav {
+    margin: 0 1rem;
+  }
+  .nav-item {
+    margin: 0 1rem;
+    padding: 1rem 0;
+    &:hover {
+      box-shadow: inset 0px -5px 0px 0px rgba(79, 179, 191, 1);
+      transition: box-shadow 0.3s;
+    }
+    .nav-link {
+      color: $text-color;
+      font-size: 1rem;
+      &:hover {
+        color: $secondary_light;
+        transition: color 0.3s;
+      }
+    }
+  }
+  .nav-item-bt {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+.banner {
+  background-image: url(../images/banner_1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  background: $bg-section;
+  padding: 2rem 0 5rem 0;
+  .content-paragraph {
+    padding: 1rem;
+  }
+}
