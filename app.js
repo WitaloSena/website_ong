@@ -17897,6 +17897,8 @@ module.exports = g;
 
 __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 
+__webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js");
+
 /***/ }),
 
 /***/ "./src/app.scss":
@@ -17917,8 +17919,8 @@ __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\witalo.sena\Desktop\website_ong\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\witalo.sena\Desktop\website_ong\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\Users\witalo\Desktop\website_ong\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\witalo\Desktop\website_ong\src\app.scss */"./src/app.scss");
 
 
 /***/ })
